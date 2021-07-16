@@ -1,8 +1,15 @@
 body{
+    margin: 0%;
     font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+    font-size: 30px;
 }
 h1{
     font-size: 40px;
+}
+p{
+    color: rgb(104, 44, 44);
 }
 .name-bold{
  color: chocolate;
@@ -15,5 +22,48 @@ h1{
 }
 .half-width img{
    width:100% ;
-   float: right;
+   float: right;}
+.prothom-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px ;
+    padding-bottom:90px;
+}
+.link-hold{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: darkred;
+    border-radius: 10px;
+    background-image: linear-gradient(green,yellow);
+    font-weight: 700;
+
+}
+.made-by-me{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.red-lal{
+    color: darkred;
+}
+.shadowwww{
+     box-shadow: 10px 10px 40px cornflowerblue;
+     border-radius: 30px;
+     height: 70%;
+}
+.third-area{ 
+      background-image:url("images/exp-bg.png");
+      background-repeat: no-repeat;
+      background-position: left;
+}
+#borderrr-one{
+    border-left: crimson 10px solid;
+}
+#borderr-tow{
+    border-left: 10px solid fuchsia;
+}
+footer{
+    text-align: center;
 }
